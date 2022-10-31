@@ -26,7 +26,7 @@ type: application
 dependencies:
   - name: postgresql
     version: 8.10.14
-    repository: https://charts.bitnami.com/bitnami
+    repository: https://raw.githubusercontent.com/bitnami/charts/archive-full-index/bitnami
     condition: postgresql.enabled
 home: https://wiki.js.org
 icon: https://cdn.js.wiki/images/wikijs-butterfly.svg
